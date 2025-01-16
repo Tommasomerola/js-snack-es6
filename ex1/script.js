@@ -44,7 +44,9 @@ for (let i = 1; i < biciLeggera.peso; i++) {
     if(biciclette[i].peso < biciLeggera.peso) {
 
     //allora sostituiamo il valore nella variabile
-    
+
         biciLeggera = biciclette[i];
     }
 }
+// stampiamo il risultato in console
+console.log (`La bici con il peso minore è ${biciLeggera.nome} con un peso di ${biciLeggera.peso} kg`);
