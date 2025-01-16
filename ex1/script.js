@@ -32,3 +32,19 @@ const biciclette = [
 // della prima bicicletta, ipotizzando sia la piu leggera
 
 let biciLeggera = biciclette[0]
+
+// creo un ciclo FOR affinche metta a confronto i pesi 
+// dalla seconda bici in poi
+
+for (let i = 1; i < biciLeggera.peso; i++) {
+
+    // se il peso della bicicletta su cui siamo(dato il valore 'i') 
+    // è minore di quello salvato
+
+    if(biciclette[i].peso < biciLeggera.peso) {
+
+    //allora sostituiamo il valore nella variabile
+    
+        biciLeggera = biciclette[i];
+    }
+}
