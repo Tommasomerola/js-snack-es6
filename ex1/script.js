@@ -25,3 +25,10 @@ const biciclette = [
         'peso' : 9,
     },
 ]
+
+// creo una funzione che metta a confronto i pesi delle bici 
+
+// inizializzo la variabile biciLeggera in modo che prenda il valore
+// della prima bicicletta, ipotizzando sia la piu leggera
+
+let biciLeggera = biciclette[0]
